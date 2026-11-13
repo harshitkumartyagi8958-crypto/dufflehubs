@@ -1,10 +1,14 @@
 import { Product } from '../types/product';
+import heroDuffleImg from '../assets/images/hero_duffle_collection_1790830722980.jpg';
+import leatherDuffleImg from '../assets/images/product_leather_duffle_1790830736172.jpg';
+import gymWaterproofImg from '../assets/images/product_gym_waterproof_1790830748198.jpg';
+import travelCanvasImg from '../assets/images/product_travel_canvas_1790830759173.jpg';
 
 // High-fidelity generated image paths
-export const HERO_IMAGE = '/src/assets/images/hero_duffle_collection_1790830722980.jpg';
-export const LEATHER_DUFFLE_IMG = '/src/assets/images/product_leather_duffle_1790830736172.jpg';
-export const GYM_WATERPROOF_IMG = '/src/assets/images/product_gym_waterproof_1790830748198.jpg';
-export const TRAVEL_CANVAS_IMG = '/src/assets/images/product_travel_canvas_1790830759173.jpg';
+export const HERO_IMAGE = heroDuffleImg;
+export const LEATHER_DUFFLE_IMG = leatherDuffleImg;
+export const GYM_WATERPROOF_IMG = gymWaterproofImg;
+export const TRAVEL_CANVAS_IMG = travelCanvasImg;
 
 export const CATEGORIES_LIST = [
   {

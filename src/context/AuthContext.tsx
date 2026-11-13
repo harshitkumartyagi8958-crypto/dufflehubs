@@ -6,6 +6,7 @@ import {
   CustomerOrder,
   WalletTransaction
 } from '../types/auth';
+import { LEATHER_DUFFLE_IMG, GYM_WATERPROOF_IMG } from '../data/products';
 
 const DEMO_USER_ID = 'DH-USER-10001';
 
@@ -50,7 +51,7 @@ const INITIAL_CUSTOMER_DATA: CustomerSpecificData = {
         {
           productId: 'dh-001',
           name: 'Executive Leather Weekender',
-          image: '/src/assets/images/product_leather_duffle_1790830736172.jpg',
+          image: LEATHER_DUFFLE_IMG,
           color: 'Brown',
           size: 'Standard',
           quantity: 1,
@@ -74,7 +75,7 @@ const INITIAL_CUSTOMER_DATA: CustomerSpecificData = {
         {
           productId: 'dh-002',
           name: 'Pro Gym & Training Duffle',
-          image: '/src/assets/images/product_gym_waterproof_1790830748198.jpg',
+          image: GYM_WATERPROOF_IMG,
           color: 'Black',
           size: 'Standard',
           quantity: 1,
